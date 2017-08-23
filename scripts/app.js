@@ -33,7 +33,7 @@ FB.getLoginStatus(function(response) {
 
 window.fbAsyncInit = function() {
 FB.init({
-appId      : '168641667039741',
+appId      : 'YourappId',
 cookie     : true,  // enable cookies to allow the server to access 
 					// the session
 xfbml      : true,  // parse social plugins on this page
@@ -75,7 +75,7 @@ FB.login(function(response) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10&appId=168641667039741";
+  js.src = "//connect.facebook.net/zh_TW/sdk.js";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
