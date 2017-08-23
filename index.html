@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facebook Login JavaScript Example</title>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<script src="scripts/app.js?20170824" async></script>
+<body>
+
+<!--
+  Below we include the Login Button social plugin. This button uses
+  the JavaScript SDK to present a graphical Login button that triggers
+  the FB.login() function when clicked.
+-->
+<div id="fb-root"></div>
+
+<div>
+	<br>
+	<button type="button" class="btn btn-primary btn-md" onclick= "LoginFB()">按此登入FB</button>
+</div>
+
+
+<div id="status"></div>
+<br>
+	<h5 id="offline1">Ready Show on Offline<p>Ps.未實作登出按鈕,需登出請利用FB.logout()</p></h5>
+<br>
+<br>
+	<h5 id="offline2"></h5>
+</body>
+</html>
